@@ -11,3 +11,30 @@ body{
     margin-bottom: 80px;
     display: flex;
     justify-content: center;
+}
+header{
+    color: pink;
+    font-size: 40px;
+    margin-bottom: 3px;
+    padding: 20px;
+}
+.chamada{
+    margin-right: 5%;
+}
+h1{
+    font-size: 35px;
+}
+    categoria{
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 50px
+    }
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 3px solid rgb(255, 226, 231);
+}
